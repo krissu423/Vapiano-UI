@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
     body {
@@ -235,13 +236,14 @@ margin-right: 475px;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1;
-    height: 120vh;
+    height: 180vh;
     overflow: hidden; /* Hide overflowing curved top */
+    background-attachment: fixed; /* Add this line to fix the background */
   }
   
   .menu-box {
     position: absolute;
-    top: 6.2%; /* Position at the vertical center */
+    top: 5%; /* Position at the vertical center */
     left: 50%; /* Position at the horizontal center */
     transform: translate(-50%, -50%); /* Center the box */
     width: 320px; /* Adjust width of the white box */
@@ -373,4 +375,30 @@ margin-right: 475px;
 .logos-container img {
   margin: 0 30px; /* Add margin on the left and right sides of each logo */
   margin-top: 25px;
+  transition: transform 0.3s; /* Add transition for smooth scaling */
+}
+
+.logos-container img:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+}
+
+.white-bar {
+  background-color: white;
+  height: 120px; /* Adjust the height of the bar */
+  width: 100%; /* Stretch the bar across the entire width of the screen */
+  position: absolute; /* Position the bar relative to its containing block */
+  bottom: 10; /* Position the bar at the bottom of the tahvel background */
+  left: 0; /* Position the bar flush with the left side of its containing block */
+  margin-top: 30px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.white-bar-content {
+  font-size: 38px; /* Adjust font size as needed */
+  font-weight: bold;
+  font-family: "Laila", serif;
+  letter-spacing: -2px;
+  color:#3B3830;
 }
