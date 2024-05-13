@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 
     body {
       margin: 0;
@@ -37,7 +39,7 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 	  padding-right: 70px;
     position: relative;
-    z-index: 10;
+    z-index: 100000;
 	  transition: top 0.3s; /* Added transition for smooth animation */
     }
     .navbar a {
@@ -52,6 +54,7 @@
       font-size: 22px;
       line-height: 1.3; /* Adjusted line height for taller menu items */
 	  margin-right: -30px;
+    z-index: 100000;
     }
     .navbar a:hover {
       color: #8B0000;
@@ -226,20 +229,64 @@ margin-right: 475px;
   }
 
   .tahvel {
+    position: relative;
     background: url('./tahvel.jpg');
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1;
-    height: 50vh;
+    height: 120vh;
+    overflow: hidden; /* Hide overflowing curved top */
   }
+  
+  .menu-box {
+    position: absolute;
+    top: 6.2%; /* Position at the vertical center */
+    left: 50%; /* Position at the horizontal center */
+    transform: translate(-50%, -50%); /* Center the box */
+    width: 320px; /* Adjust width of the white box */
+    height: 135px; /* Adjust height of the white box */
+    background-color: white;
+    border-radius: 10px; /* Adjust border radius if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 0 3px 1px #000000, inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+    z-index: 10;
+    margin-top: 10px;
+    font-size: 80px;
+    color: #3b3830;
+    transition: all 0.3s ease; /* Adding transition for smooth animation */
+  }
+
+  
+  
+.tahvel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* Adjust height of curved area */
+  background-color: white; /* Set background color to match your background */
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transform: translateY(-55%);
+  z-index: 1; /* Ensure curve is behind content */
+}
+
+
 
 .flex-container {
   display: flex;
   justify-content: center;
   gap: 4px;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 50px;
 }
 
 .flex-container.top {
@@ -251,12 +298,14 @@ margin-right: 475px;
 }
 
 .flip-box {
-  width: 180px;
-  height: 120px;
+  width: 330px;
+  height: 190px;
   perspective: 1000px;
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .flip-box-inner {
@@ -283,16 +332,45 @@ margin-right: 475px;
 }
 
 .flip-box-front {
-  background-color: #bbb;
   color: black;
+  font-size: 30px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
 
 .flip-box-back {
-  background-color: gray;
   color: black;
   transform: rotateX(180deg);
+  background-color: white;
 }
 
 .flex-container-whole{
-  padding-top: px;
+  padding-top: 270px;
+}
+
+.telli {
+  text-align: center; /* Center-align the text */
+  color: white; /* Set the text color to white */
+  margin-top: 35px; /* Add some top margin for spacing */
+  font-size: 18px;
+}
+
+#olive-left1 {
+  margin-left: 650px; /* Adjusted margin */
+}
+
+#olive-right1 {
+  margin-right: 650px; /* Adjusted margin */
+}
+
+.telli-text {
+  display: inline-block;
+  vertical-align: middle; /* Vertically center the text */
+  margin-top: 10px; /* Add top padding */
+}
+
+.logos-container img {
+  margin: 0 30px; /* Add margin on the left and right sides of each logo */
+  margin-top: 25px;
 }
