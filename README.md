@@ -11,6 +11,8 @@ fundamentaalseid asju veebilehtede tegemise kohta, väljaspool igasuguseid raami
 venitasime suhteliselt pikalt. Sellegipoolest oleme me päris uhked meie tulemuse üle. Oleme õppinud palju uut CSS ja HTML kohta, mida kusagilt mujalt ei oleks saanud õppida. See projekt on meie 
 probleemilahendamiseoskusi kõvasti parendanud ja arvan, et sellest on kindlasti abi ka tulevikus.
 
+Ainukesed asjad mis jäid puudulikuks on main footer koos menüüga ja telefonivaade.
+
 Üks kõige raskemaid osi võis olla vigade troubleshootimine. Kui miski ei töödanud nii nagu oleks pidanud, oli väga raske seda viga üles leida. Ütleks, et see oli põhiline miinus raamistike mittekasutamisel.
 Sellegipoolest leidsime interneti abiga peaaegu alati meie probleemidele lahendused või siis enamasti 'workaroundid'. 
 Üheks raskuseks näiteks, et CSS reeglid overlappisid erinevate klasside vahel ja kui üritada muuta nt margineid või paddingut, ei toimunud mitte midagi, kuna miski muu overwrites neid reegleid. Mitmeid kordi ei töödanud ei !important,
@@ -37,4 +39,7 @@ Osalist töömahu jaotust on näha siin Githubis commitide järgi, aga enamjaolt
 ![image](https://github.com/krissu423/Vapiano-UI/assets/125663006/9b8b2576-9a63-4be3-bc29-b33c59274099)
 ![image](https://github.com/krissu423/Vapiano-UI/assets/125663006/2adb428a-2f9a-4bd2-ac57-b10d8ed18e8b)
 ![image](https://github.com/krissu423/Vapiano-UI/assets/125663006/7142f999-3ff1-4b33-83c0-e912ecdbbb9a)
+![image](https://github.com/krissu423/Vapiano-UI/assets/125663006/d7534e2e-9c81-4b7a-8fbb-396a18a88f20)
+![image](https://github.com/krissu423/Vapiano-UI/assets/125663006/e57ce3ac-980a-4f0c-aff8-afb31cbb3cf3)
+
 
