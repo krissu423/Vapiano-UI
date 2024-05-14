@@ -496,3 +496,64 @@ margin-right: 475px;
 .rectangular-button:hover {
   transform: scale(1.1);
 }
+
+.dual-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the two containers */
+  margin-top: 200px; /* Space above the containers */
+}
+
+.info-box {
+  width: 500px; /* Set width of the containers */
+  background-color: #fff; /* White background color */
+  border: #00000;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Padding inside the container */
+  position: relative; /* Ensure positioning context for the button */
+}
+
+.info-image {
+  width: 100%; /* Full width of the container */
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+.info-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin: 15px 0 10px; /* Space around the heading */
+}
+
+.info-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 10px 0; /* Space around the text */
+}
+
+.info-button {
+  background-color: #FF0000; /* Red background color */
+  color: white; /* White text color */
+  border: #000000;
+  bottom: 20px;
+  padding: 10px 20px; /* Padding inside the button */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /* Font size */
+  font-weight: bold;
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 15px; /* Space above the button */
+  transition: transform 0.3s; /* Smooth scaling effect */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.info-button:hover {
+  transform: scale(1.05); /* Scale button on hover */
+}
+
+
