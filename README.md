@@ -1,4 +1,4 @@
-GRUPIS: Kristjan Peedisson & Karl Joonas Berkovitch
+**GRUPIS: Kristjan Peedisson & Karl Joonas Berkovitch**
 
 Meie mõtlesime teha järgi Vapiano kodulehte. Alles hiljem avastasime, et leht on tehtud wordpressis, aga võtsime seda kui omaette katsumusena (ei saa midagi maha teha).
 Järgmise 'naljaka' katsumusena mõtlesime, et teeme terve lehe css ja html-iga (mõned lihtsad scriptid ka). Kuna keegi meist pole kunagi varem tervet lehte teinud pure HTML ja CSS kasutades (oleme loonud
