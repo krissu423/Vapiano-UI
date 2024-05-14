@@ -16,7 +16,7 @@ Sellegipoolest leidsime interneti abiga peaaegu alati meie probleemidele lahendu
 Üheks raskuseks näiteks, et CSS reeglid overlappisid erinevate klasside vahel ja kui üritada muuta nt margineid või paddingut, ei toimunud mitte midagi, kuna miski muu overwrites neid reegleid. Mitmeid kordi ei töödanud ei !important,
 ei z-indexi muutmine ja tuli leida lihtsalt teine lahendus (meie kood oli väga segamini juba algusest peale ja raske oli midagi trackida ka :)).
 
-Samuti avastasime täna (14.05), et kui avada leht näiteks läpakal või 4k monitoril, on ikoonid ja tekst paigast :) Readme allpool asuvas Nota Benes on juhised, kuidas lehte õieti avada.
+Samuti avastasime täna (14.05), et kui avada leht näiteks läpakal või 4k monitoril, on ikoonid ja tekst paigast :) Readme allpool asuvas Nota Benes on juhised, kuidas lehte õieti avada. Kui seda teha ei ole võimalik, olen alla pannud ka screenshotid, kuidas leht näeb õieti avatuna välja.
 
 Osalist töömahu jaotust on näha siin Githubis commitide järgi, aga enamjaolt olime alati kas kõnes või üksteise kõrval seda lehte tehes.
 
