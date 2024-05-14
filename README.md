@@ -17,7 +17,11 @@ ei z-indexi muutmine ja tuli leida lihtsalt teine lahendus (meie kood oli väga 
 Osalist töömahu jaotust on näha siin Githubis commitide järgi, aga enamjaolt olime alati kas kõnes või üksteise kõrval seda lehte tehes.
 
 <h2>**How to run**</h2>
-1. Clone the repository on your machine
-2. Open file explorer
-3. Locate the repository
-4. Run 'leht.html'
+<br>
+<h3>1. Clone the repository on your machine</h3>
+<br>
+<h3>2. Open file explorer</h3>
+<br>
+<h3>3. Locate the repository</h3>
+<br>
+<h3>4. Run 'leht.html'</h3>
