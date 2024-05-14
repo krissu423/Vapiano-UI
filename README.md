@@ -26,4 +26,4 @@ Osalist töömahu jaotust on näha siin Githubis commitide järgi, aga enamjaolt
 <br>
 <h3>4. Run 'leht.html'</h3>
 
-<h3>NB! For the correct placement of icons and text, it is recommended to open the webpage in fullscreen web browser with 1920x1080 resolution'</h3>
+<h3>NB! For the correct placement of icons and text, it is recommended to open the webpage in fullscreen monitor web browser with 1920x1080 resolution'</h3>
