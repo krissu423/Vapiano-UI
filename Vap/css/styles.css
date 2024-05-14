@@ -307,7 +307,7 @@ margin-right: 475px;
   width: 330px;
   height: 190px;
   perspective: 1000px;
-  border-radius: 10px;
+  border-radius: 20px;
   overflow: hidden;
   margin-bottom: 8px;
   margin-left: 10px;
@@ -505,14 +505,15 @@ margin-right: 475px;
 }
 
 .info-box {
-  width: 500px; /* Set width of the containers */
+  width: 400px; /* Set width of the containers */
   background-color: #fff; /* White background color */
-  border: #00000;
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 0 5px 1px #000000, inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 0px solid transparent;
   text-align: center; /* Center-align text */
   padding: 20px; /* Padding inside the container */
   position: relative; /* Ensure positioning context for the button */
+  margin-top: -130px;
 }
 
 .info-image {
@@ -521,6 +522,7 @@ margin-right: 475px;
   object-fit: cover;
   object-position: top;
   border-radius: 10px 10px 0 0; /* Rounded top corners */
+  
 }
 
 .info-heading {
@@ -556,4 +558,56 @@ margin-right: 475px;
   transform: scale(1.05); /* Scale button on hover */
 }
 
+.instagram{
+  font-size: 28px;
+  padding-top: 30px;
+  padding-right: 50px;
+  font-family:monospace;
+}
 
+.banner {
+  margin-top: -50px;
+  background-image: url('banner.png');
+  background-size: contain; /* Adjusts the size of the background image to fit within the element */
+  background-position: center; /* Centers the background image horizontally and vertically */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  height: 400px; /* Adjust the height of the banner */
+  margin-left: 50px; /* Adjust the space on the left */
+  margin-right: 50px; /* Adjust the space on the right */
+  position: relative; /* Position the button relative to the banner */
+}
+
+.banner-button {
+  width: 260px;
+  height: 50px;
+  position: absolute; /* Position the button absolutely within the banner */
+  top: 50%; /* Position the button vertically in the middle */
+  left: 50%; /* Position the button horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the button */
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s; /* Add transition for smooth scaling */
+  font-size: 19px;
+}
+
+.banner-button:hover {
+  transform: translate(-50%, -50%) scale(1.1); /* Increase the size on hover */
+}
+
+.footer {
+  height: 50px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  text-align: center;
+  padding: 6px 0; /* Adjust padding as needed */
+  font-size: 20px; /* Adjust font size as needed */
+}
+
+.footer p {
+  margin-top: 15px; /* Adjust margin to move the text up */
+}
