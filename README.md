@@ -16,7 +16,7 @@ ei z-indexi muutmine ja tuli leida lihtsalt teine lahendus (meie kood oli väga 
 
 Osalist töömahu jaotust on näha siin Githubis commitide järgi, aga enamjaolt olime alati kas kõnes või üksteise kõrval seda lehte tehes.
 
-How to run
+<h2>**How to run**</h2>
 1. Clone the repository on your machine
 2. Open file explorer
 3. Locate the repository
