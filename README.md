@@ -15,3 +15,9 @@ Sellegipoolest leidsime interneti abiga peaaegu alati meie probleemidele lahendu
 ei z-indexi muutmine ja tuli leida lihtsalt teine lahendus (meie kood oli väga segamini juba algusest peale ja raske oli midagi trackida ka :)).
 
 Osalist töömahu jaotust on näha siin Githubis commitide järgi, aga enamjaolt olime alati kas kõnes või üksteise kõrval seda lehte tehes.
+
+How to run
+1. Clone the repository on your machine
+2. Open file explorer
+3. Locate the repository
+4. Run 'leht.html'
