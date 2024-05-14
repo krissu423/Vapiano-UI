@@ -1,3 +1,5 @@
+**CHECK NOTA BENE AT THE END OF THE README**
+
 **GRUPIS: Kristjan Peedisson & Karl Joonas Berkovitch**
 
 Meie mõtlesime teha järgi Vapiano kodulehte. Alles hiljem avastasime, et leht on tehtud wordpressis, aga võtsime seda kui omaette katsumusena (ei saa midagi maha teha).
