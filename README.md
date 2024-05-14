@@ -6,8 +6,8 @@ varasemalt mitu veebilehte kasutades erinevaid CMS-e ja raamistikke, aga mitte k
 fundamentaalseid asju veebilehtede tegemise kohta, väljaspool igasuguseid raamistikke ja abikäsi.
 
 Üks nõrk külg, mis on meid mõlemat esimesest aastast saati kummitanud, on meie ajaplaneerimine. Iga kord kui me kokku saime, kuigi me jõudsime väga palju ära teha, tüütas see töö kiirelt ja järgmise kohtumise aega 
-venitasime suhteliselt pikalt. Sellegipoolest oleme me päris uhked meie tulemuse üle. Oleme õppinud palju uut CSS ja HTML kohta, mida kusagilt mujalt ei oleks saanud õppida. See projekt on meie probleemi-
-lahendamiseoskusi kõvasti parendanud ja arvan, et sellest on kindlasti abi ka tulevikus.
+venitasime suhteliselt pikalt. Sellegipoolest oleme me päris uhked meie tulemuse üle. Oleme õppinud palju uut CSS ja HTML kohta, mida kusagilt mujalt ei oleks saanud õppida. See projekt on meie 
+probleemilahendamiseoskusi kõvasti parendanud ja arvan, et sellest on kindlasti abi ka tulevikus.
 
 Üks kõige raskemaid osi võis olla vigade troubleshootimine. Kui miski ei töödanud nii nagu oleks pidanud, oli väga raske seda viga üles leida. Ütleks, et see oli põhiline miinus raamistike mittekasutamisel.
 Sellegipoolest leidsime interneti abiga peaaegu alati meie probleemidele lahendused või siis enamasti 'workaroundid'. 
